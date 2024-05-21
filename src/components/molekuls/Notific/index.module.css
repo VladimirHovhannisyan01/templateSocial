@@ -1,0 +1,29 @@
+.notificConteiner {
+  padding: 15px 16px;
+  border: 1px solid #ccc;
+  background-color: #dfe5e8;
+  position: relative;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.notificConteiner > strong {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.notificConteiner > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #becbd2;
+  border: none;
+  padding: 8px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.notificConteiner > button:hover {
+  background-color: #ccc;
+}

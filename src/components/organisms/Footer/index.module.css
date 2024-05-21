@@ -1,0 +1,26 @@
+.h5 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footerTop {
+  padding: 16px;
+  background-color: #435761;
+  color: white;
+}
+
+.link {
+  color: white;
+}
+
+.text {
+  font-size: 15px;
+  margin: 15px;
+}
+
+.footerBottom {
+  padding: 0.15px 16px;
+  background-color: #303e45;
+  color: white;
+}

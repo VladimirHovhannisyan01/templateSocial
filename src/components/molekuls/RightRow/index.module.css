@@ -1,0 +1,68 @@
+.right {
+  width: 17%;
+}
+
+.events {
+  padding: 15.15px 0;
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+
+.events > button {
+  background-color: #dfe5e8;
+  border: none;
+  padding: 10.5px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.events > button:hover {
+  background-color: #ccc;
+}
+
+.frendRequestConteiner {
+  display: grid;
+  gap: 16px;
+  text-align: center;
+  padding: 16.15px 0;
+}
+
+.buttonsConteiner {
+  display: flex;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.buttonsConteiner > button {
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonsConteiner > button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.checkButton {
+  background-color: #4caf50;
+}
+
+.removeButton {
+  background-color: #f44336;
+}
+
+.ads {
+  padding: 31px 0;
+  text-align: center;
+}
+
+.bug {
+  padding: 32px 0;
+  text-align: center;
+  font-size: 36px;
+}
