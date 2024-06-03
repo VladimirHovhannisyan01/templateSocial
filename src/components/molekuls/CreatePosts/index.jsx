@@ -20,7 +20,7 @@ const CreatePosts = () => {
       <div>
         <label className={classes.label_file}>
           <IconText iconName="download">Download Photo</IconText>
-          <input type="file" onChange={imgHandler} multiple />
+          <input type="file" onChange={imgHandler} multiple key={Date.now()} />
         </label>
       </div>
       <div className={classes.post_image}>

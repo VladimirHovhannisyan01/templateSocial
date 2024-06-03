@@ -5,9 +5,9 @@ import "./index.css";
 import PostContextProvider from "./components/context/PostContextProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <PostContextProvider>
-      <App />
-    </PostContextProvider>
-  </React.StrictMode>
+  // <React.StrictMode>
+  <PostContextProvider>
+    <App />
+  </PostContextProvider>
+  // </React.StrictMode>
 );
